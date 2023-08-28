@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row text-center mb-3" data-aos="zoom-in">
           <div class="col">
-            <h2>Laporan Omset Harian.</h2>
+            <h2>Laporan Barang Masuk.</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -58,35 +58,62 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <form name="zulcyber-contact-form" data-aos="zoom-in">
+                <p><b>Jumlah Barang Masuk (Aktual) :</b></p>
               <div class="mb-3">
-                <label for="serba35" class="form-label">Serba 35 (Pcs)</label>
-                <input type="text" class="form-control" id="serba35" aria-describedby="serba35" name="serba35" required />
+                <label for="Supplier" class="form-label">Nama Supplier</label>
+                <input type="text" class="form-control" id="Supplier" aria-describedby="Supplier" name="Supplier" required />
               </div>
               <div class="mb-3">
-                <label for="kado" class="form-label">Kertas Kado (Pcs)</label>
-                <input type="text" class="form-control" id="kado" aria-describedby="kado" name="kado" required />
+                <label for="Nota_kodi" class="form-label">Nota (Kodi)</label>
+                <input type="text" class="form-control" id="Nota_kodi" aria-describedby="Nota_kodi" name="Nota_kodi" required />
               </div>
               <div class="mb-3">
-                <label for="obral" class="form-label">Barang Obral (Pcs)</label>
-                <input type="text" class="form-control" id="obral" aria-describedby="obral" name="obral" required />
+                <label for="Nota_lusin" class="form-label">Nota (Lusin)</label>
+                <input type="text" class="form-control" id="Nota_lusin" aria-describedby="Nota_lusin" name="Nota_lusin" required />
               </div>
               <div class="mb-3">
-                <label for="uanglebih" class="form-label">Uang Lebih (Rp)</label>
-                <input type="text" class="form-control" id="uanglebih" aria-describedby="uanglebih" name="uanglebih" required />
+                <label for="Nota_pcs" class="form-label">Nota (Pcs)</label>
+                <input type="text" class="form-control" id="Nota_pcs" aria-describedby="Nota_pcs" name="Nota_pcs" required />
               </div>
               <div class="mb-3">
-                <label for="nontunai" class="form-label">Uang Non Tunai (Rp)</label>
-                <input type="text" class="form-control" id="nontunai" aria-describedby="nontunai" name="nontunai" required />
+                <label for="Jumlah_Rp_Nota" class="form-label">Jumlah (Rp)</label>
+                <input type="text" class="form-control" id="Jumlah_Rp_Nota" aria-describedby="Jumlah_Rp_Nota" name="Jumlah_Rp_Nota" required />
+              </div>
+              <p><b>Jumlah Barang Masuk (Aktual) :</b></p>
+              <div class="mb-3">
+                <label for="Aktual_kodi" class="form-label">Aktual (Kodi)</label>
+                <input type="text" class="form-control" id="Aktual_kodi" aria-describedby="Aktual_kodi" name="Aktual_kodi" required />
               </div>
               <div class="mb-3">
-                <label for="selisih" class="form-label">Selisih (Rp)</label>
-                <input type="text" class="form-control" id="selisih" aria-describedby="selisih" name="selisih" required />
+                <label for="Aktual_lusin" class="form-label">Aktual (Lusin)</label>
+                <input type="text" class="form-control" id="Aktual_lusin" aria-describedby="Aktual_lusin" name="Aktual_lusin" required />
               </div>
               <div class="mb-3">
-                <label for="pengeluaran" class="form-label">Pengeluaran (Rp)</label>
-                <input type="text" class="form-control" id="pengeluaran" aria-describedby="pengeluaran" name="pengeluaran" required />
+                <label for="Aktual_pcs" class="form-label">Aktual (Pcs)</label>
+                <input type="text" class="form-control" id="Aktual_pcs" aria-describedby="Aktual_pcs" name="Aktual_pcs" required />
               </div>
-              
+              <div class="mb-3">
+                <label for="Jumlah_Rp_Aktual" class="form-label">Jumlah (Rp)</label>
+                <input type="text" class="form-control" id="Jumlah_Rp_Aktual" aria-describedby="Jumlah_Rp_Aktual" name="Jumlah_Rp_Aktual" required />
+              </div>
+              <p><b>Jumlah Barang Selisih :</b></p>
+              <div class="mb-3">
+                <label for="Selisih_lebih" class="form-label">Selisih (Lebih)</label>
+                <input type="text" class="form-control" id="Selisih_lebih" aria-describedby="Selisih_lebih" name="Selisih_lebih" required />
+              </div>
+              <div class="mb-3">
+                <label for="Selisih_lebih" class="form-label">Selisih (Kurang)</label>
+                <input type="text" class="form-control" id="Selisih_lebih" aria-describedby="Selisih_lebih" name="Selisih_lebih" required />
+              </div>
+              <div class="mb-3">
+                <label for="Jumlah_Rp_Selisih" class="form-label">Jumlah (Rp)</label>
+                <input type="text" class="form-control" id="Jumlah_Rp_Selisih" aria-describedby="Jumlah_Rp_Selisih" name="Jumlah_Rp_Selisih" required />
+              </div>
+              <div class="mb-3">
+                <label for="Keterangan" class="form-label">Keterangan</label>
+                <input type="text" class="form-control" id="Keterangan" aria-describedby="Keterangan" name="Keterangan" required />
+              </div>
+                            
               <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
 
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
@@ -116,7 +143,7 @@
       });
     </script>
     <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbze4tP7rDaw9vZ82jnRNLU0cYqIw1PhA-hBn5_NTKJGflif4ecTw0KqxdGZdD22cynhMA/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxti1CblQ1Vbw9w_giLN359FRmVKhuzSSj2e-5RpGqKYSHwYolr_0CpExGfPiEe8SAjXQ/exec";
       const form = document.forms["zulcyber-contact-form"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");

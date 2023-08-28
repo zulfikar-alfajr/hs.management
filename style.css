@@ -37,7 +37,7 @@ html {
   font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 2px;
-  color: #ff0000;
+  color: black;
   text-transform: capitalize;
   text-align: center;
   margin-top: 20px;
@@ -58,7 +58,7 @@ html {
   border: 3px solid #000000;
   background-color: #eaeaea;
   border-radius: 7px;
-  margin: 20px 20px;
+  margin: 60px 60px;
   padding: 20px;
   text-transform: uppercase;
   font-weight: 500;
